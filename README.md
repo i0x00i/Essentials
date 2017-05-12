@@ -3,7 +3,8 @@ Bunch of scripts that run in PATH for timesaving...
 
 In order for these to function you need to create a folder anywhere you want then add to PATH for example below we will be using ~/bin which ever changes you decide to make you are on your own.
 
-Also we will be using zsh / ohmyzsh. inside the .zshrc with your favourite editor
+Also we will be using zsh / ohmyzsh. inside the .zshrc with your favourite editor: 
+
 sudo vim .zshrc
 
 locate: export PATH=/home/$USER/bin:
