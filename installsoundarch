@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+echo
+#sudo gpasswd -a $USER audio
+echo
+sudo pacman -S alsa-utils alsa-oss alsa-utils alsa-firmware alsa-plugins
+sleep 2
+sudo amixer sset Master unmute
+sleep 2
+alsamixer

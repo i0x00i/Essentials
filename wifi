@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+echo
+ip addr
+echo
+echo -n "Device: "
+read device
+sudo wifi-menu $device

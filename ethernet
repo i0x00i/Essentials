@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+echo
+sudo dhcpcd enp2s0
+echo
+echo "[+] Enlisted ethernet under DHCP command... Should I configure a Rouge DNS next???"
+

@@ -1,0 +1,4 @@
+docker swarm init
+docker-machine ls
+docker node ls
+docker service create --replicas 1 --name croc-hunter -p 8080:80 --update-delay 10s --update-parallelism 1 lachlanevenson/croc-hunter:v1

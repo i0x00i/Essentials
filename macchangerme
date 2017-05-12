@@ -1,0 +1,27 @@
+#!/bin/bash
+clear
+echo
+ip link
+echo
+#echo -n "Spoofed MAC: "
+#read spoofedmac
+echo -n "Interface: "
+read interface
+macchanger -r $interface
+echo
+#macchanger --mac=$spoofedmac $interface
+#macchanger -p $interface
+#
+#Method 1:
+#/etc/systemd/network/00-default.link="file1"
+#echo "[Match]" >> $file1
+#echo "MACAddress=original MAC" >> $file1
+#echo "" >> $file1
+#echo "[Link]" >> $file1
+#echo "MACAddress=spoofed MAC" >> $file1
+#
+#echo "MACAddressPolicy=radnom"
+#
+#Method 2:
+#
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+echo
+echo sudo '[archlinuxfr]' >> /etc/pacman.conf
+sleep 2
+echo sduo 'SigLevel = Never' >> /etc/pacman.conf
+sleep 2
+echo sudo 'Server = https://repo.archlinux.fr/$arch' >> /etc/pacman.conf
+sleep 2
+sudo pacman -Sy yaourt

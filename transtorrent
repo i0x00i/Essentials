@@ -1,0 +1,10 @@
+#!/bin/bash
+echo
+echo "!!!RUN THIS IN THE TORRENT FOLDER !!!"
+echo
+echo -n "Download Directory: "
+read dldirectory
+echo -n "Torrent: "
+read torrent
+transmission-cli -w $dldirectory $torrent
+
